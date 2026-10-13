@@ -24,9 +24,6 @@ random temporary PIN that is printed **once**. You must change it at first login
 Admin creates customers; customers must change the admin-set PIN at first login.
 Lost admin PIN: delete the data folder (this wipes all accounts).
 
-To recover the administrator PIN without deleting accounts, click **Forgot Admin PIN?** in the GUI and enter
-`4321`, then choose a new PIN. For a custom recovery code, set `ATM_RECOVERY_CODE` before running.
-
 ## Where data lives
 
 `%USERPROFILE%\.java-atm\` (override with env var `ATM_DATA_DIR`): `accounts.dat`, `atm.key`, `audit.log`.
